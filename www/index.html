@@ -9,30 +9,183 @@
 <html lang="de" class="no-js">
 
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="ESV Rosenheim Handball">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="ESV Rosenheim Handball">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Thorsten Göckeler" />
+  <meta name="publisher" content="Eisenbahner Sportverein 1929 e.V." />
+  <meta name="copyright" content="Eisenbahner Sportverein 1929 e.V., 2015" />
+  <meta name="owner" content="Eisenbahner Sportverein 1929 e.V." />
 
-    <meta name="author" content="Thorsten G�ckeler" />
-    <meta name="publisher" content="Eisenbahner Sportverein 1929 e.V." />
-    <meta name="copyright" content="Eisenbahner Sportverein 1929 e.V., 2015" />
-    <meta name="owner" content="Eisenbahner Sportverein 1929 e.V." />
+  <meta name="keywords" content="handball,damenhandball,kinderhandball,jugendhandball,minis,rosenheim,oberbayern,chiemgau,ۂOL,ۂL,bezirksoberliga,bezirksliga,bezirksklasse" />
+  <meta name="revisit-after" content="1 days" />
+  <meta name="page-topic" content="Sport" />
 
-    <meta name="keywords" content="handball,damenhandball,kinderhandball,jugendhandball,minis,rosenheim,oberbayern,chiemgau,�BOL,�BL,bezirksoberliga,bezirksliga,bezirksklasse" />
-    <meta name="revisit-after" content="1 days" />
-    <meta name="page-topic" content="Sport" />
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
 
-    <title>ESV Rosenheim Handball</title>
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="ESV Rosenheim - Handball">
+  <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
 
-    <link rel="stylesheet" type="text/css" href="http://handball-sr-mittelfranken.de/tabellen/tabellen.css">
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+  <meta name="msapplication-TileColor" content="#3372DF">
+
+  <title>ESV Rosenheim Handball</title>
+
+	<!-- Material Design -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" >
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-orange.min.css" />
+  <!-- Tabellen & Ergebnisse -->
+  <link rel="stylesheet" type="text/css" href="http://handball-sr-mittelfranken.de/tabellen/tabellen.css">
 </head>
-
 <body>
-  <h1>Aktueller Spielplan aller Mannschaften</h1>
-  <div srstabellenformat="l;l;l;l;l;l;l;c" srstabellenspalten="SpieldatumTag/^..(..).(..).(..)$/$3.$2.$1;Spieldatum!11!5;Liga_Name_kurz;Spielnummer;HeimTeam_Name_lang;GastTeam_Name_lang;Halle_Abk;Tore_Heim+%:+Tore_Gast" srstabellenkopf="Datum;Zeit;Liga;Nummer;Heimmannschaft;Gastmannschaft;Halle;Ergebnis" srsalle="1" srsverein="ESV Rosenheim" class="srsPlanVerein">&nbsp;</div>
+  <!-- Simple header with scrollable tabs. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">ESV Rosenheim - Handball</span>
+      </div>
+      <!-- Tabs -->
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+        <a href="#scroll-tab-1" class="mdl-layout__tab is-active">Home</a>
+        <a href="#scroll-tab-2" class="mdl-layout__tab">Mannschaften</a>
+        <a href="#scroll-tab-3" class="mdl-layout__tab">Spielplan</a>
+        <a href="#scroll-tab-4" class="mdl-layout__tab">Verein</a>
+        <a href="#scroll-tab-5" class="mdl-layout__tab">Anfahrt</a>
+        <a href="#scroll-tab-6" class="mdl-layout__tab">Kontakt</a>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">ESV Rosenheim - Handball</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="#scroll-tab-1">Home</a>
+        <a class="mdl-navigation__link" href="#scroll-tab-1">Mannschaften</a>
+        <a class="mdl-navigation__link" href="#scroll-tab-1">Spielplan</a>
+        <a class="mdl-navigation__link" href="#scroll-tab-1">Verein</a>
+        <a class="mdl-navigation__link" href="#scroll-tab-1">Anfahrt</a>
+        <a class="mdl-navigation__link" href="#scroll-tab-1">Kontakt</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
+        <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+          <div class="mdl-card mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__supporting-text">
+              <h4>Saisoneröffnung mit Heimspieltag am 27.09.2015</h4>
+              Die neue Saison 2015/2016 startet kommenden Sonntag mit einem Heimspieltag in der Gaborhalle. Los geht es um 9 Uhr mit der männlichen D-Jugend, am Abend ab 20:30 Uhr beschließt die 2. Herrenmannschaft einen vollen Handballtag. Schaut doch einfach mal vorbei!
+            </div>
+            <!--
+            <div class="mdl-card__actions">
+              <a href="#" class="mdl-button">Link</a>
+            </div>
+            -->
+          </div>
+        </section>
+        <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+          <div class="mdl-card mdl-cell mdl-cell--12-col">
+            <div class="mdl-card__supporting-text">
+              <h4>Luitpoldhalle gesperrt</h4>
+              Das Training in der Luitpoldhalle kann vorerst nicht stattfinden. Die Halle wird zur Unterbringung von Flüchtlingen dringend benötigt. Wir versuchen in Zusammenarbeit mit der Stadt Rosenheim die Trainingszeiten in andere Hallen zu verlegen.
+            </div>
+            <!--
+            <div class="mdl-card__actions">
+              <a href="#" class="mdl-button">Link</a>
+            </div>
+            -->
+          </div>
+        </section>
+      </div>
+      <section class="mdl-layout__tab-panel" id="scroll-tab-2">
+        <div class="page-content">
+          <!-- TEAMS --></div>
+      </section>
+      <section class="mdl-layout__tab-panel" id="scroll-tab-3">
+        <div class="page-content">
+          <!-- MATCHES -->
+          <h4>Aktueller Spielplan aller Mannschaften</h1>
+          <div srstabellenformat="l;l;l;l;l;l;l;c" srstabellenspalten="SpieldatumTag/^..(..).(..).(..)$/$3.$2.$1;Spieldatum!11!5;Liga_Name_kurz;Spielnummer;HeimTeam_Name_lang;GastTeam_Name_lang;Halle_Abk;Tore_Heim+%:+Tore_Gast" srstabellenkopf="Datum;Zeit;Liga;Nummer;Heimmannschaft;Gastmannschaft;Halle;Ergebnis" srsalle="1" srsverein="ESV Rosenheim" class="srsPlanVerein">&nbsp;</div>
+          <p></p>
+        </div>
+      </section>
+      <section class="mdl-layout__tab-panel" id="scroll-tab-4">
+        <div class="page-content">
+          <!-- CLUB, HISTORY, BOARD, FORMS -->
+        </div>
+      </section>
+      <section class="mdl-layout__tab-panel" id="scroll-tab-5">
+        <div class="page-content">
+          <!-- ROUTING -->
+        </div>
+      </section>
+      <section class="mdl-layout__tab-panel" id="scroll-tab-6">
+        <div class="page-content">
+          <!-- CONTACT -->
+        </div>
+      </section>
 
+     <footer class="mdl-mega-footer">
+          <div class="mdl-mega-footer--middle-section">
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">Herren</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li><a href="#">1. Herrenmannschaft</a></li>
+                <li><a href="#">2. Herrenmanschaft</a></li>
+                <li><a href="#">A-Jugend</a></li>
+                <li><a href="#">B-Jugend</a></li>
+                <li><a href="#">D-Jugend</a></li>
+              </ul>
+            </div>
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">Damen</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li><a href="#">1. Damenmannschaft</a></li>
+                <li><a href="#">B-Jugend</a></li>
+                <li><a href="#">D-Jugend</a></li>
+              </ul>
+            </div>
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">Mixed</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li><a href="#">E-Jugend</a></li>
+                <li><a href="#">Minis</a></li>
+              </ul>
+            </div>
+            <div class="mdl-mega-footer--drop-down-section">
+              <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+              <h1 class="mdl-mega-footer--heading">Verein</h1>
+              <ul class="mdl-mega-footer--link-list">
+                <li><a href="#">Vorstand</a></li>
+                <li><a href="#">Geschichte</a></li>
+                <li><a href="#">Formulare</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="mdl-mega-footer--bottom-section">
+            <ul class="mdl-mega-footer--link-list">
+              <li><a href="#">Eisenbahner Sportverein Rosenheim 1929 e. V.</a></li>
+              <li><a href="#">nuLiga Ergebnisdienst</a></li>
+              <li><a href="#">Handball im Fernsehen</a></li>
+            </ul>
+          </div>
+        </footer>
+    </main>
+  </div>
+
+  <!-- Material Design -->
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.min.js"></script>
+  <!-- JavaScript f�ellen und Ergebnisse -->
   <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <!-- <script src="http://handball-sr-mittelfranken.de/tabellen/jquery.js" type="text/javascript"></script> -->
   <script src="http://handball-sr-mittelfranken.de/tabellen/tabellen.js" type="text/javascript"></script>
