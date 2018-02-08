@@ -1,0 +1,437 @@
+/* Body */
+body {background-color: #CCCCCC; margin: 0px; padding: 0px; color:#CCCCCC}
+body,td,th {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: #585858;
+	
+}
+
+/* Bilder ohne Ramen */
+img{border:0px;}
+
+/* Scrollbalken rechts immer */
+html { min-height: 100.05%; }
+
+/* Ueberschriften */
+h1 {
+	font-family: Arial;
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #CC0000;
+	border-bottom: 2px solid #808080;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:10px;
+	margin-bottom:5px;
+	padding-left:0px;
+	padding-right:0;
+	padding-top:0;
+	padding-bottom:0;
+	letter-spacing:1pt
+}
+
+h2 {
+font-family: Arial;
+font-size: 12px;
+line-height: 16px;
+font-weight: bold;
+color: #CC0000;
+border-bottom: 1px solid #FFE9E0;
+border-left-width:0px; border-right-width:0px; border-top-width:0px; margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom:10px; padding-left:3px; padding-right:0; padding-top:0; padding-bottom:0 }
+
+h3,h4,h5,h6 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: none;
+	color: #000066;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-left:3px;
+	padding-right:0;
+	padding-top:3px;
+	padding-bottom:5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #C00;
+	line-height: 12px;
+}
+
+
+
+/* Formular */
+form {margin: 0; }
+
+
+/* Links Content */
+/*a:link, a:visited, a:active 					{color: #003366; text-decoration: underline;}
+a:hover 										{
+	text-decoration: underline;
+}*/
+
+
+/* Kopfzeile - Banner */
+.header {
+	background-color: #006;
+	background-image: url(/templates/intwerb.de/img/topbanner.png);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.menusearch  {
+	text-transform: uppercase;
+	color:#CCC;
+	text-decoration:none;
+	background-color:#006;
+	text-align: center;
+}
+
+
+	/*.header 										{background-color: #e0e0e0;	background: url(banner.jpg);
+												 background-repeat: no-repeat; vertical-align: middle;
+												 text-align: left; color: #606060; height: 111px; font-size: 48px; font-weight: bold; padding-left: 20px;}*/		
+
+
+/* Menue links */
+.menu											{
+	text-transform: uppercase;
+	color:#CCC;
+	text-decoration:none;
+	background-color:#006;
+	text-align: left;
+	width: 200px;
+}
+.menu li										{
+	border-top:0px solid #CCCCCC;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	border-bottom: 0px solid #FFFFFF;
+	border-left-color:#CCCCCC;
+	border-right-color:#CCCCCC;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-family:Arial;
+	font-size:11px;
+	border-left-width:1px;
+	border-right-width:1px;
+	text-align: left;
+}
+.menu ul								
+	{list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	border-left-color:#CCCCCC;
+	border-right-color:#CCCCCC;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-family:Arial;
+	font-size:11px;
+	border-left-width:1px;
+	border-right-width:1px;
+	text-align: left;
+}
+.menu ul ul 									{
+	border-top:0px solid #CCCCCC;
+	border-bottom:0px solid #CCCCCC;
+	padding-left: 10px;
+	background-color: #006;
+	text-transform:uppercase;
+	text-decoration:none;
+	color:#CCC;
+	font-family:Arial;
+	font-size:11px;
+	border-left-width:1px;
+	border-right-width:1px;
+	text-align: left;
+}
+.menu a:link, .menu a:visited, .menu a:active 	{
+	color: #CCC;
+	display: block;
+	text-decoration: none;
+	font-weight: normal;
+	text-transform:uppercase;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:1px;
+	padding-bottom:1px;
+	text-align: left;
+}
+.menu a:hover 									{
+	text-decoration: none;
+	color: #CCC;
+	background-color:#06C;
+	text-transform:uppercase;
+	font-family:Arial;
+	font-size:11px;
+	text-align: left;
+}
+.menu a.menu_current 							{
+	font-weight: bold;
+	color: #FFF;
+	background-color: #06C;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-family:Arial;
+	font-size:11px;
+	text-align: left;
+}
+
+
+
+
+/* Menue unten */
+.menu2      									{
+	font-family: Arial;
+	font-size: 11px;
+	background-color: #006;
+	border-bottom: 1px solid #D9D9D9;
+	border-top: 1px solid #D9D9D9;
+	margin: 0;
+	padding: 0;
+	border-left-width:0px;
+	border-right-width:0px;
+	color: #CCC;
+	text-align: left;
+}
+.menu2 ul   {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: right;
+	text-transform:uppercase;
+	color: #CCC;
+	text-align: left;}	
+.menu2 ul li {
+	display: block;
+	float: right;
+	text-align: left;
+	padding: 0;
+	margin: 0
+}
+.menu2 ul li a 	{
+	display: block;
+	margin: 0;
+	text-align: left;
+	color: #CCC;
+	width: 95px;
+	height: 16px;
+	border-left: 1px solid #FFFFFF;
+	text-decoration: none;
+	font-weight: 100;
+	border-right-width:0px;
+	border-top-width:0px;
+	border-bottom-width:0px;
+	padding-left:0px;
+	padding-right:0;
+	padding-top:1px;
+	padding-bottom:2px
+	}
+.menu2 a:link, .menu2 a:visited, .menu2 a:active 	{
+	color: #CCC;
+	text-decoration: none;
+	text-align: left;
+}
+.menu2 ul li a:hover{
+	color: #FFFFFF;
+	background-color:
+	#5A5A5A;
+	text-align: left;
+}
+
+
+
+
+/* Menue oben */
+.menu3      									{
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	background-color: #006;
+	border-bottom: 1px solid #D9D9D9;
+	margin: 0;
+	padding: 0;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-top-width:0px;
+	text-transform:uppercase
+}
+.menu3 ul      									{border: 0; margin: 0; padding: 0; list-style-type: none; text-align: center; text-transform:uppercase}
+.menu3 ul li    								{display: block; float: right; text-align: center; padding: 0; margin: 0; text-transform:uppercase}
+.menu3 ul li a 									{display: block; margin: 0; text-align: center; color: #FFFFFF; background-color: #CC0000; width: 95px;
+               									 height: 16px; border-left: 1px solid #FFFFFF; text-decoration: none; 
+               									 font-weight: 100; border-right-width:0px; border-top-width:0px; border-bottom-width:0px; padding-left:0; padding-right:0; padding-top:1px; padding-bottom:2px; text-transform:uppercase }
+.menu3 ul li a:hover 							{color: #FFFFFF; background-color: #5A5A5A; text-transform:uppercase}
+
+
+
+
+/* Menue Login */
+.login 												{padding: 2px 10px 2px 10px; font-size: 10px;background-color: #E0E0E0; color: #606060; text-align: center;}
+.login input 										{width: 95%; font-size: 10px;}
+.login a:link, .login a:visited, .login a:active 	{color: #C0C0C0; text-decoration: none;}
+.login a:hover 										{color: #003366; text-decoration: none;}
+	
+
+/* Suchfeld */
+.searchfield {
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+	background-color: #E4E4E4;
+	color: #656565;
+	border: 1px solid #D9D9D9;
+	margin: 2px;
+}
+.contenttag {
+	padding: 0px;
+	background-color: #FFFFFF;
+	vertical-align: top;
+	text-align: left;
+	overflow: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	line-height: normal;
+	width: 100%;
+	height: 620px;
+}
+
+
+
+/* Seiteninhalt */
+.content 											{
+	background-color: #FFFFFF;
+	height: 400px;
+	vertical-align: top;
+	text-align: left;
+	border-right-width: 2px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	overflow: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	line-height: normal;
+	padding-top: 5px;
+	padding-right: 12px;
+	padding-bottom: 5px;
+	padding-left: 12px;
+}
+.content a, p, br{
+	text-decoration: none;
+	text-align: left;
+	line-height: normal;
+	color: #000;
+}
+.content a:link, .content a:visited, .content a:active 	{
+	text-decoration: none;
+	text-align: right;
+	color: #000;
+	line-height: 5px;
+}
+.content a:hover 									{
+	text-align: left;
+	line-height: 5px;
+	color: #8C5160;
+}
+
+.input 												{width: 95%; font-size: 10px;}
+
+
+
+
+/* Fusszeile */
+.footer { font-size: 11px; height: 20px; color: #FFFFFF; text-align: center }
+.footer a {color: #CC0000; text-decoration: none }
+.inforight {
+	background-color: #FFF;
+	width: 200px;
+	text-align: center;
+	color: #000066;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.inforight a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000066;
+	vertical-align: middle;
+}
+.inforight a.hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000066;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.footer a:hover {color:#CC0000 }
+.content p {
+	text-decoration: none;
+	text-align: left;
+}
+.read a:link, .read a:visited, .read a:active, .read a:hover {
+	color: #000066;
+	font-size: 10px;
+	text-decoration: none;
+	text-align: right;
+}
+.post_title, .post_date {
+/*	border-bottom: 1px solid #C00;*/
+	padding: 0px 0px 0px 0px;
+}
+.post_title {
+	font-weight: bold;
+	font-size: 12px;
+	color: #000066;
+}
+.post_date {
+	text-align: right;
+	font-size: 12px;
+	color: #000000;
+}
+.post_short {
+/*	border-left: 1px solid #C00;*/
+	text-align: justify;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.post_more{
+	text-align: right;
+	padding-bottom: 5px;
+	font-size: 8px;
+	color: #000066;
+}
+.comment_title {
+	font-weight: bold;
+}
+.comment_text {
+	font-weight: bold;
+	background-color: #FDFDFD;
+	border-bottom: 1px solid #DDDDDD;
+	padding-bottom: 15px;
+}
+.comment_title, .comment_text {
+	border-left: 1px solid #DDDDDD;
+}
+.comment_info {
+	text-align: right;
+	font-size: 10px;
+        color: #666666
+	border-right: 1px solid #DDDDDD;
+}
+.comment_title, .comment_info {
+	border-top: 1px solid #DDDDDD;
+	background-color: #EEEEEE;
+}
+.selected_group_title { 
+	font-size: 14px;
+	text-align: center;
+}
+/*** Don't remove the class nixhier, this is required for ASP ***/
+.nixhier {
+	display:none;
+}																																														
